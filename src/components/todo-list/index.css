@@ -1,0 +1,55 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    border-top: solid rgba(0, 0, 0, 0.082) 1px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 0.062);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.itemText{
+    padding: 8px 0 7px 10%;
+    width: 100%;
+}
+.checked{
+    text-decoration:line-through
+}
+
+button{
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    transition: 0.2s;
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.021);
+    color: rgba(255, 0, 0, 0.418);
+}
+.btn-check{
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border-radius: 100%;
+    border: 1px solid;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.308);
+    align-items: center;
+    padding: 2px;
+}
+
+.btn-check:hover{
+    color: rgba(0, 0, 0, 0.308);
+}
+MdDone{
+    color: green;
+}
