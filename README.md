@@ -11,4 +11,4 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![Image of ScreenShot]("/img/todo-app.JPG")
+![Image of ScreenShot](https://github.com/abdullaherdogan/todo-app/blob/master/img/todo-app.JPG)
